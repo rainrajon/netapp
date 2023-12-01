@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ue/Hg1YDEp8CvqHT4cr5wzPS9Zd7MiS/3b4KRH+pPmc=",
+  "Source": "StorageCondition_API",
+  "BasePath": "_content/StorageCondition_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

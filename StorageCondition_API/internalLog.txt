@@ -1,0 +1,218 @@
+2023-11-21 16:05:42.5620 Info Loading assembly name: NLog.Web.AspNetCore
+2023-11-21 16:05:42.6134 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.5.967. Product version: 5.3.5+b3d46f80b6ea51e91ee7fe419da22e5abd972951. GlobalAssemblyCache: False
+2023-11-21 16:05:42.7232 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-11-21 16:05:42.7232 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-11-21 16:05:42.7449 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-21 16:05:42.7721 Info Validating config: TargetNames=alldata, ConfigItems=44, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-21 16:05:42.7873 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2023-11-21 16:05:42.8002 Info Configuration initialized.
+2023-11-21 16:49:12.3272 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-21 16:49:12.3709 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create LayoutRenderer with unknown type-alias: 'logDirectory' - Verify type-alias and check extension is included.
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+2023-11-21 16:49:12.4024 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-21 16:49:12.4294 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-21 16:49:12.4548 Info Validating config: TargetNames=file1, ConfigItems=13, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-21 16:49:12.4681 Info Configuration initialized.
+2023-11-21 16:49:12.8253 Info Validating config: TargetNames=file1, ConfigItems=13, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-21 17:06:16.9314 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-21 17:06:16.9889 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create LayoutRenderer with unknown type-alias: 'logDirectory' - Verify type-alias and check extension is included.
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+2023-11-21 17:06:17.0320 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-21 17:06:17.1312 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-21 17:06:17.1722 Info Validating config: TargetNames=file1, ConfigItems=13, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-21 17:06:17.1996 Info Configuration initialized.
+2023-11-21 17:06:17.9665 Info Validating config: TargetNames=file1, ConfigItems=13, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 10:11:45.2553 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-22 10:11:45.5460 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create LayoutRenderer with unknown type-alias: 'logDirectory' - Verify type-alias and check extension is included.
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+2023-11-22 10:11:45.8499 Info Registered target NLog.Targets.FileTarget(Name=file1)
+2023-11-22 10:11:45.9126 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 10:11:45.9704 Info Validating config: TargetNames=file1, ConfigItems=13, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 10:11:46.0057 Info Configuration initialized.
+2023-11-22 10:11:46.8085 Info Validating config: TargetNames=file1, ConfigItems=13, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 10:41:20.6882 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-22 10:41:20.7928 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 10:41:20.8185 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 10:41:20.8481 Info Validating config: TargetNames=file, ConfigItems=15, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 10:41:20.8726 Info Configuration initialized.
+2023-11-22 10:41:21.7366 Info Validating config: TargetNames=file, ConfigItems=15, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 10:44:19.7415 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'variable(Name=logDirectory)' in section 'targets'
+2023-11-22 10:44:19.8363 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 10:44:19.8794 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 10:44:19.9134 Info Validating config: TargetNames=file, ConfigItems=15, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 10:44:19.9340 Info Configuration initialized.
+2023-11-22 10:44:20.8381 Info Validating config: TargetNames=file, ConfigItems=15, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 10:51:51.2574 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 10:51:51.3195 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 10:51:51.3845 Info Validating config: TargetNames=file, ConfigItems=15, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 10:51:51.4147 Info Configuration initialized.
+2023-11-22 10:51:52.4145 Info Validating config: TargetNames=file, ConfigItems=15, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 11:04:22.5173 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 11:04:22.6966 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 11:04:22.7931 Info Validating config: TargetNames=file, ConfigItems=15, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 11:04:22.8281 Info Configuration initialized.
+2023-11-22 11:04:23.6273 Info Validating config: TargetNames=file, ConfigItems=15, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 11:13:54.0780 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 11:13:54.2524 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-22 11:13:54.2833 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 11:13:54.3624 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 11:13:54.3953 Info Configuration initialized.
+2023-11-22 11:13:55.1176 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 11:15:34.7835 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 11:15:35.1488 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-22 11:15:35.4007 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 11:15:35.5045 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 11:15:35.5404 Info Configuration initialized.
+2023-11-22 13:03:26.9161 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 13:03:26.9579 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-22 13:03:26.9739 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 13:03:27.0140 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 13:03:27.0409 Info Configuration initialized.
+2023-11-22 13:18:43.2629 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 13:18:43.4673 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-22 13:18:43.5164 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 13:18:43.5941 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 13:18:43.6184 Info Configuration initialized.
+2023-11-22 13:20:50.9036 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 13:20:50.9344 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-22 13:20:50.9491 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 13:20:50.9785 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 13:20:51.0072 Info Configuration initialized.
+2023-11-22 13:26:17.6556 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 13:26:17.8054 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-22 13:26:17.8370 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 13:26:17.8875 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 13:26:17.9214 Info Configuration initialized.
+2023-11-22 13:27:47.8879 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 13:27:47.9264 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-22 13:27:47.9426 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 13:27:47.9741 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 13:27:47.9922 Info Configuration initialized.
+2023-11-22 13:28:49.0002 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 13:28:49.2141 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-22 13:28:49.2902 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 13:28:49.5907 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 13:28:49.6418 Info Configuration initialized.
+2023-11-22 14:29:00.6644 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 14:29:00.6963 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-22 14:29:00.7122 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 14:29:00.7407 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 14:29:00.7645 Info Configuration initialized.
+2023-11-22 18:07:44.0230 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-22 18:07:44.5088 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-22 18:07:44.6127 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-22 18:07:44.7590 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-22 18:07:44.8264 Info Configuration initialized.
+2023-11-23 14:52:50.9950 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-23 14:52:51.1941 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-23 14:52:51.3072 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-23 14:52:51.3995 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-23 14:52:51.4446 Info Configuration initialized.
+2023-11-23 15:02:46.2152 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-23 15:02:46.2711 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-23 15:02:46.2918 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-23 15:02:46.3323 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-23 15:02:46.3608 Info Configuration initialized.
+2023-11-23 15:16:09.3164 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-23 15:16:09.4611 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-23 15:16:09.4968 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-23 15:16:09.6092 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-23 15:16:09.6489 Info Configuration initialized.
+2023-11-23 17:38:50.8453 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-23 17:38:50.8821 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-23 17:38:50.8979 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-23 17:38:50.9257 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-23 17:38:50.9447 Info Configuration initialized.
+2023-11-23 18:03:20.5191 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-23 18:03:20.7479 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-23 18:03:20.8029 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-23 18:03:20.9196 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-23 18:03:20.9519 Info Configuration initialized.
+2023-11-24 10:23:16.3884 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 10:23:16.6641 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 10:23:16.7053 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 10:23:16.7718 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 10:23:16.8028 Info Configuration initialized.
+2023-11-24 11:22:12.5751 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 11:22:12.6112 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 11:22:12.6296 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 11:22:12.8191 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 11:22:12.8826 Info Configuration initialized.
+2023-11-24 12:42:10.8858 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 12:42:10.9428 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 12:42:10.9693 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 12:42:11.0178 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 12:42:11.0443 Info Configuration initialized.
+2023-11-24 12:49:51.4137 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 12:49:51.7812 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 12:49:51.8219 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 12:49:51.8886 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 12:49:51.9285 Info Configuration initialized.
+2023-11-24 13:18:08.5262 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 13:18:08.9851 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 13:18:09.1677 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 13:18:09.4154 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 13:18:09.4684 Info Configuration initialized.
+2023-11-24 13:19:42.1827 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 13:19:42.7209 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 13:19:42.8287 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 13:19:43.0199 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 13:19:43.0571 Info Configuration initialized.
+2023-11-24 13:22:21.5371 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 13:22:22.1103 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 13:22:22.1669 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 13:22:22.2454 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 13:22:22.2957 Info Configuration initialized.
+2023-11-24 13:25:15.3994 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 13:25:15.5907 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 13:25:15.6558 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 13:25:15.8501 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 13:25:15.8897 Info Configuration initialized.
+2023-11-24 13:28:36.9689 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 13:28:37.1610 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 13:28:37.2153 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 13:28:37.5378 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 13:28:37.5826 Info Configuration initialized.
+2023-11-24 13:35:38.6730 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 13:35:39.3625 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 13:35:39.5013 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 13:35:39.6750 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 13:35:39.7207 Info Configuration initialized.
+2023-11-24 13:37:28.9103 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 13:37:28.9525 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 13:37:28.9731 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 13:37:29.0167 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 13:37:29.0382 Info Configuration initialized.
+2023-11-24 18:26:21.9229 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 18:26:21.9622 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 18:26:21.9819 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 18:26:22.0169 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 18:26:22.0359 Info Configuration initialized.
+2023-11-24 18:34:03.9019 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 18:34:04.2827 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 18:34:04.3116 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 18:34:04.3720 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 18:34:04.4325 Info Configuration initialized.
+2023-11-24 19:12:51.0501 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-24 19:12:51.9139 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-24 19:12:52.3091 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-24 19:12:52.5305 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-24 19:12:52.5895 Info Configuration initialized.
+2023-11-27 14:52:45.5374 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-27 14:52:45.6572 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-27 14:52:45.7108 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-27 14:52:46.4394 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-27 14:52:46.6354 Info Configuration initialized.
+2023-11-27 17:30:52.0408 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-27 17:30:52.0818 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-27 17:30:52.1063 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-27 17:30:52.1483 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-27 17:30:52.1762 Info Configuration initialized.
+2023-11-28 12:20:15.3893 Info Registered target NLog.Targets.FileTarget(Name=file)
+2023-11-28 12:20:15.8805 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'writoTo'='file' for element 'logger' in section 'rules'
+2023-11-28 12:20:16.0134 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.6.2256. Product version: 5.2.6+1d441552d39bd7e2bd31062e2e96de6828a83003. GlobalAssemblyCache: False
+2023-11-28 12:20:16.2841 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=D:\StorageConditions\StorageCondition_API\StorageCondition_API\bin\Debug\net6.0\NLog.config
+2023-11-28 12:20:16.3592 Info Configuration initialized.

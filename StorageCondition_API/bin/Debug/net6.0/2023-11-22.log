@@ -1,0 +1,193 @@
+2023-11-22 10:41:21.8896 Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-11-22 10:41:22.0115 Microsoft.Extensions.Hosting.Internal.Host Hosting starting 
+2023-11-22 10:41:22.2338 Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer Using development certificate: CN=localhost (Thumbprint: C4ACB37C6DAFD417DD41422474A7DB616C86EF46) 
+2023-11-22 10:41:22.3182 Microsoft.Hosting.Lifetime Now listening on: https://localhost:7164 
+2023-11-22 10:41:22.3182 Microsoft.Hosting.Lifetime Now listening on: http://localhost:5229 
+2023-11-22 10:41:22.3182 Microsoft.AspNetCore.Hosting.Diagnostics Loaded hosting startup assembly StorageCondition_API 
+2023-11-22 10:41:22.3182 Microsoft.AspNetCore.Hosting.Diagnostics Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-11-22 10:41:22.3182 Microsoft.AspNetCore.Hosting.Diagnostics Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-11-22 10:41:22.3182 Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down. 
+2023-11-22 10:41:22.3182 Microsoft.Hosting.Lifetime Hosting environment: Development 
+2023-11-22 10:41:22.3182 Microsoft.Hosting.Lifetime Content root path: D:\StorageConditions\StorageCondition_API\StorageCondition_API\ 
+2023-11-22 10:41:22.3182 Microsoft.Extensions.Hosting.Internal.Host Hosting started 
+2023-11-22 10:41:22.7745 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id "0HMVB35S4FKNS" received FIN. 
+2023-11-22 10:41:22.8088 Microsoft.AspNetCore.Server.Kestrel.Connections Connection id "0HMVB35S4FKNS" accepted. 
+2023-11-22 10:41:22.8120 Microsoft.AspNetCore.Server.Kestrel.Connections Connection id "0HMVB35S4FKNS" started. 
+2023-11-22 10:41:22.8764 Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-22 10:41:22.9395 Microsoft.AspNetCore.Server.Kestrel.Connections Connection id "0HMVB35S4FKNS" stopped. 
+2023-11-22 10:41:22.9395 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id "0HMVB35S4FKNS" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-11-22 10:41:23.9259 Microsoft.AspNetCore.Server.Kestrel.Connections Connection id "0HMVB35S4FKNT" accepted. 
+2023-11-22 10:41:23.9259 Microsoft.AspNetCore.Server.Kestrel.Connections Connection id "0HMVB35S4FKNT" started. 
+2023-11-22 10:41:24.0453 Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware Connection 0HMVB35S4FKNT established using the following protocol: Tls13 
+2023-11-22 10:41:24.0824 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE. 
+2023-11-22 10:41:24.0824 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-22 10:41:24.0884 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-22 10:41:24.0884 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-22 10:41:24.0884 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-22 10:41:24.0884 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" received HEADERS frame for stream ID 1 with length 450 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-22 10:41:24.1268 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-22 10:41:24.1441 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - - 
+2023-11-22 10:41:24.1996 Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware Wildcard detected, all requests with hosts will be allowed. 
+2023-11-22 10:41:24.1996 Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware All hosts are allowed. 
+2023-11-22 10:41:24.2459 Microsoft.AspNetCore.Routing.Matching.DfaMatcher No candidates found for the request path '/swagger/index.html' 
+2023-11-22 10:41:24.2459 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request did not match any endpoints 
+2023-11-22 10:41:24.4355 Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware Response markup is scheduled to include browser refresh script injection. 
+2023-11-22 10:41:24.4519 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-11-22 10:41:24.6278 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 1 with length 1024 and flags NONE. 
+2023-11-22 10:41:24.6278 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 1 with length 1024 and flags NONE. 
+2023-11-22 10:41:24.6278 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 1 with length 1024 and flags NONE. 
+2023-11-22 10:41:24.6278 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 1 with length 1024 and flags NONE. 
+2023-11-22 10:41:24.6278 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 1 with length 1002 and flags NONE. 
+2023-11-22 10:41:24.6278 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 1 with length 65 and flags NONE. 
+2023-11-22 10:41:24.6278 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 1 with length 16 and flags NONE. 
+2023-11-22 10:41:24.6436 Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware Response markup was updated to include browser refresh script injection. 
+2023-11-22 10:41:24.6436 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-11-22 10:41:24.6496 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - - - 200 - text/html;charset=utf-8 508.5879ms 
+2023-11-22 10:41:24.6663 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" received HEADERS frame for stream ID 3 with length 109 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-22 10:41:24.6663 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" received HEADERS frame for stream ID 5 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-22 10:41:24.6663 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - - 
+2023-11-22 10:41:24.6663 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - - 
+2023-11-22 10:41:24.6813 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending HEADERS frame for stream ID 3 with length 60 and flags END_HEADERS. 
+2023-11-22 10:41:24.6813 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 3 with length 12372 and flags NONE. 
+2023-11-22 10:41:24.6813 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-11-22 10:41:24.6813 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 15.2586ms 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending HEADERS frame for stream ID 5 with length 119 and flags END_HEADERS. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 9986 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 160 and flags NONE. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-11-22 10:41:24.7016 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.2756ms 
+2023-11-22 10:41:24.8092 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" received HEADERS frame for stream ID 7 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-22 10:41:24.8092 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - - 
+2023-11-22 10:41:24.8092 Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware All hosts are allowed. 
+2023-11-22 10:41:24.8092 Microsoft.AspNetCore.Routing.Matching.DfaMatcher No candidates found for the request path '/swagger/v1/swagger.json' 
+2023-11-22 10:41:24.8092 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request did not match any endpoints 
+2023-11-22 10:41:24.9919 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS. 
+2023-11-22 10:41:24.9919 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 7 with length 8149 and flags NONE. 
+2023-11-22 10:41:24.9919 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2023-11-22 10:41:24.9919 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 182.7202ms 
+2023-11-22 10:41:35.8182 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" received HEADERS frame for stream ID 9 with length 51 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-22 10:41:35.8182 Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7164/api/TrackHistory/GetTrackRunsFromNDCID - - 
+2023-11-22 10:41:35.8182 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-22 10:41:35.8182 Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware All hosts are allowed. 
+2023-11-22 10:41:35.8190 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-22 10:41:35.8190 Microsoft.AspNetCore.Routing.Matching.DfaMatcher 1 candidate(s) found for the request path '/api/TrackHistory/GetTrackRunsFromNDCID' 
+2023-11-22 10:41:35.8190 Microsoft.AspNetCore.Routing.Matching.DfaMatcher Endpoint 'StorageCondition_API.Controllers.TrackHistory.GetTrackRunsFromNDCID (StorageCondition_API)' with route pattern 'api/TrackHistory/GetTrackRunsFromNDCID' is valid for the request path '/api/TrackHistory/GetTrackRunsFromNDCID' 
+2023-11-22 10:41:35.8190 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request matched endpoint 'StorageCondition_API.Controllers.TrackHistory.GetTrackRunsFromNDCID (StorageCondition_API)' 
+2023-11-22 10:41:35.8190 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Static files was skipped as the request already matched an endpoint. 
+2023-11-22 10:41:35.8190 Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'StorageCondition_API.Controllers.TrackHistory.GetTrackRunsFromNDCID (StorageCondition_API)' 
+2023-11-22 10:41:35.9002 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetTrackRunsFromNDCID", controller = "TrackHistory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTrackRunsFromNDCID(Int32, Int32, System.String, System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime]) on controller StorageCondition_API.Controllers.TrackHistory (StorageCondition_API). 
+2023-11-22 10:41:35.9017 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Execution plan of authorization filters (in the following order): None 
+2023-11-22 10:41:35.9017 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Execution plan of resource filters (in the following order): None 
+2023-11-22 10:41:35.9017 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-11-22 10:41:35.9017 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Execution plan of exception filters (in the following order): None 
+2023-11-22 10:41:35.9017 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-11-22 10:41:35.9017 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing controller factory for controller StorageCondition_API.Controllers.TrackHistory (StorageCondition_API) 
+2023-11-22 10:41:36.0310 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed controller factory for controller StorageCondition_API.Controllers.TrackHistory (StorageCondition_API) 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to bind parameter 'pageIndex' of type 'System.Int32' ... 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name '' in request data ... 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder Could not find a value in the request with name '' for binding parameter 'pageIndex' of type 'System.Int32'. 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder Done attempting to bind parameter 'pageIndex' of type 'System.Int32'. 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to bind parameter 'pageIndex' of type 'System.Int32'. 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ... 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'. 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to bind parameter 'numberOfRecPerPage' of type 'System.Int32' ... 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder Attempting to bind parameter 'numberOfRecPerPage' of type 'System.Int32' using the name '' in request data ... 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder Could not find a value in the request with name '' for binding parameter 'numberOfRecPerPage' of type 'System.Int32'. 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder Done attempting to bind parameter 'numberOfRecPerPage' of type 'System.Int32'. 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to bind parameter 'numberOfRecPerPage' of type 'System.Int32'. 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to validate the bound parameter 'numberOfRecPerPage' of type 'System.Int32' ... 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to validate the bound parameter 'numberOfRecPerPage' of type 'System.Int32'. 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to bind parameter 'ndcId' of type 'System.String' ... 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder Attempting to bind parameter 'ndcId' of type 'System.String' using the name '' in request data ... 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder Could not find a value in the request with name '' for binding parameter 'ndcId' of type 'System.String'. 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder Done attempting to bind parameter 'ndcId' of type 'System.String'. 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to bind parameter 'ndcId' of type 'System.String'. 
+2023-11-22 10:41:36.0580 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to validate the bound parameter 'ndcId' of type 'System.String' ... 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to validate the bound parameter 'ndcId' of type 'System.String'. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to bind parameter 'startDate' of type 'System.Nullable`1[System.DateTime]' ... 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder Attempting to bind parameter 'startDate' of type 'System.Nullable`1[System.DateTime]' using the name '' in request data ... 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder Could not find a value in the request with name '' for binding parameter 'startDate' of type 'System.Nullable`1[System.DateTime]'. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder Done attempting to bind parameter 'startDate' of type 'System.Nullable`1[System.DateTime]'. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to bind parameter 'startDate' of type 'System.Nullable`1[System.DateTime]'. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to validate the bound parameter 'startDate' of type 'System.Nullable`1[System.DateTime]' ... 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to validate the bound parameter 'startDate' of type 'System.Nullable`1[System.DateTime]'. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to bind parameter 'endDate' of type 'System.Nullable`1[System.DateTime]' ... 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder Attempting to bind parameter 'endDate' of type 'System.Nullable`1[System.DateTime]' using the name '' in request data ... 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder Could not find a value in the request with name '' for binding parameter 'endDate' of type 'System.Nullable`1[System.DateTime]'. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinder Done attempting to bind parameter 'endDate' of type 'System.Nullable`1[System.DateTime]'. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to bind parameter 'endDate' of type 'System.Nullable`1[System.DateTime]'. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to validate the bound parameter 'endDate' of type 'System.Nullable`1[System.DateTime]' ... 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to validate the bound parameter 'endDate' of type 'System.Nullable`1[System.DateTime]'. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method StorageCondition_API.Controllers.TrackHistory.GetTrackRunsFromNDCID (StorageCondition_API) - Validation state: Valid 
+2023-11-22 10:41:36.0710 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method StorageCondition_API.Controllers.TrackHistory.GetTrackRunsFromNDCID (StorageCondition_API) with arguments (0, 0, , , ) 
+2023-11-22 10:41:56.6871 StorageCondition_API.services.TrackRunService System.NotSupportedException: Method ToDateTime not supported.
+   at Azure.Data.Tables.Queryable.ExpressionNormalizer.VisitMethodCallNoRewrite(MethodCallExpression call)
+   at Azure.Data.Tables.Queryable.ExpressionNormalizer.VisitMethodCall(MethodCallExpression call)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Azure.Data.Tables.Queryable.ExpressionNormalizer.VisitUnary(UnaryExpression u)
+   at System.Linq.Expressions.UnaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Azure.Data.Tables.Queryable.ExpressionNormalizer.VisitBinary(BinaryExpression b)
+   at System.Linq.Expressions.BinaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Azure.Data.Tables.Queryable.ExpressionNormalizer.VisitBinary(BinaryExpression b)
+   at System.Linq.Expressions.BinaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at Azure.Data.Tables.TableClient.Bind(Expression expression)
+   at Azure.Data.Tables.TableClient.Query[T](Expression`1 filter, Nullable`1 maxPerPage, IEnumerable`1 select, CancellationToken cancellationToken)
+   at StorageCondition_API.services.TrackRunService.getTrackRunFromNDCIds(String ndcId, Int32 pageIndex, Int32 numberOfRecPerPage, Nullable`1 startDate, Nullable`1 endDate) in D:\StorageConditions\StorageCondition_API\StorageCondition_API\services\TrackRunService.cs:line 83 
+2023-11-22 10:41:56.8128 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-22 10:41:56.8128 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-22 10:41:56.8128 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-22 10:41:56.8128 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-22 10:41:56.8128 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action StorageCondition_API.Controllers.TrackHistory.GetTrackRunsFromNDCID (StorageCondition_API) in 20917.6134ms 
+2023-11-22 10:41:56.8320 Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'StorageCondition_API.Controllers.TrackHistory.GetTrackRunsFromNDCID (StorageCondition_API)' 
+2023-11-22 10:41:56.8320 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request. System.NotSupportedException: Method ToDateTime not supported.
+   at StorageCondition_API.services.TrackRunService.getTrackRunFromNDCIds(String ndcId, Int32 pageIndex, Int32 numberOfRecPerPage, Nullable`1 startDate, Nullable`1 endDate) in D:\StorageConditions\StorageCondition_API\StorageCondition_API\services\TrackRunService.cs:line 103
+   at StorageCondition_API.Controllers.TrackHistory.GetTrackRunsFromNDCID(Int32 pageIndex, Int32 numberOfRecPerPage, String ndcId, Nullable`1 startDate, Nullable`1 endDate) in D:\StorageConditions\StorageCondition_API\StorageCondition_API\Controllers\TrackHistory.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-22 10:41:56.8481 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending HEADERS frame for stream ID 9 with length 60 and flags END_HEADERS. 
+2023-11-22 10:41:56.8481 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 9 with length 3173 and flags NONE. 
+2023-11-22 10:41:56.8481 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2023-11-22 10:41:56.8481 Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7164/api/TrackHistory/GetTrackRunsFromNDCID - - - 500 - text/plain;+charset=utf-8 21029.7918ms 
+2023-11-22 10:41:56.8481 Microsoft.AspNetCore.Server.Kestrel.Http2 Connection id "0HMVB35S4FKNT" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
